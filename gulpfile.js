@@ -37,7 +37,7 @@ gulp.task('sass', function () {
 
 /*  сборка CSS библиотек и минификация    */
 gulp.task('css-libs', function () {
-    return gulp.src('app/css/libs/*.css') // Выбираем файл для минификации
+    return gulp.src('app/css/vendor/*.css') // Выбираем файл для минификации
         .pipe(cssconcat('./libs.min.css'))
         .pipe(filesize({
             title: 'CSS->',

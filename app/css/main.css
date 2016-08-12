@@ -432,3 +432,77 @@ p {
     height: 3px;
     margin-right: 10px;
     background-color: #f38181; }
+
+.gallery-team {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .gallery-team__item {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 30%;
+        -ms-flex: 1 1 30%;
+            flex: 1 1 30%;
+    margin: 0 10px; }
+    .gallery-team__item-description {
+      text-align: center;
+      font-size: 14px;
+      font-family: "Montserrat";
+      color: #333333;
+      text-transform: uppercase;
+      line-height: 1.2; }
+
+.image-container {
+  position: relative; }
+
+.image-container:hover .wrap-personal-social {
+  opacity: 1; }
+
+.wrap-personal-social {
+  padding: 0;
+  margin: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fce38a), to(#f38181));
+  background: -webkit-linear-gradient(top, #fce38a 0%, #f38181 100%);
+  background: linear-gradient(180deg, #fce38a 0%, #f38181 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  z-index: 50; }
+
+.personal-social-list {
+  padding: 0;
+  text-align: center; }
+  .personal-social-list__item {
+    display: inline-block;
+    height: 55px;
+    width: 55px;
+    list-style: none;
+    line-height: 55px;
+    text-align: center;
+    background-color: #fce38a; }
+    .personal-social-list__item:hover {
+      background-color: #f38181; }
+    .personal-social-list__item-link {
+      display: block;
+      font-size: 3rem;
+      color: #f38181; }
+      .personal-social-list__item-link:hover {
+        color: #ffffff; }

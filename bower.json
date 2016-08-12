@@ -1,0 +1,8 @@
+{
+  "name": "MoGo - project",
+  "version": "1.0.0",
+  "dependencies": {
+    "ionicons": "^1.0.2",
+    "normalize-css": "^4.0.0"
+  }
+}

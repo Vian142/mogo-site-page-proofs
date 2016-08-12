@@ -1,0 +1,51 @@
+.gallery-team
+  display: flex
+  &__item
+    flex: 1 1 30%
+    margin: 0 10px
+    &-description
+      text-align: center
+      font-size: 14px
+      font-family: "Montserrat"
+      color: rgb(51, 51, 51)
+      text-transform: uppercase
+      line-height: 1.2
+.image-container
+  position: relative
+.image-container:hover .wrap-personal-social
+  opacity: 1
+
+.wrap-personal-social
+  padding: 0
+  margin: 0
+  background: linear-gradient( 180deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%)
+  position: absolute
+  top: 0
+  left: 0
+  bottom: 0
+  right: 0
+  opacity: 0
+  display: flex
+  flex-direction: column
+  justify-content: center
+  transition: all 0.3s ease
+  z-index: 50
+.personal-social-list
+  padding: 0
+  text-align: center
+  &__item
+    display: inline-block
+    height: 55px
+    width: 55px
+    list-style: none
+    line-height: 55px
+    text-align: center
+    background-color: #fce38a
+    &:hover
+      background-color: #f38181
+    &-link
+      display: block
+      font-size: 3rem
+      color: #f38181
+      &:hover
+        color: #ffffff
