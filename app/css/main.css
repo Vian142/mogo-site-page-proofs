@@ -167,6 +167,14 @@ html {
 section {
   padding: 30px 5px; }
 
+p {
+  font-size: 1rem;
+  font-family: "Open Sans";
+  color: #999999;
+  line-height: 1.6rem;
+  text-align: center;
+  margin: 3em 2em; }
+
 .about-us {
   background-color: #ffffff; }
 
@@ -191,14 +199,6 @@ section {
   margin: 0 auto;
   text-align: center;
   padding: 10px 0 25px 0; }
-
-p {
-  font-size: 1rem;
-  font-family: "Open Sans";
-  color: #999999;
-  line-height: 1.6rem;
-  text-align: center;
-  margin: 3em 2em; }
 
 .gallery-section {
   max-width: 960px;
@@ -258,3 +258,66 @@ p {
       text-transform: uppercase;
       line-height: 1.2rem;
       text-align: center; }
+
+.block-icons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px 0; }
+  .block-icons__item {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 30%;
+        -ms-flex: 1 1 30%;
+            flex: 1 1 30%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 10px 15px 40px 0; }
+    .block-icons__item__icon-wrap {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1 1 25%;
+          -ms-flex: 1 1 25%;
+              flex: 1 1 25%;
+      color: #95e1d3;
+      font-size: 3rem;
+      text-align: center; }
+    .block-icons__item__description {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1 1 75%;
+          -ms-flex: 1 1 75%;
+              flex: 1 1 75%; }
+      .block-icons__item__description p {
+        margin: 0 0 10px 0; }
+
+.title-block {
+  font-size: 1rem;
+  font-family: "Montserrat";
+  color: #333333;
+  text-transform: uppercase;
+  line-height: 1.1rem;
+  text-align: left;
+  margin: 5px 0; }
+
+.gray-line {
+  height: 1px;
+  width: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 100%;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
+  background: #e5e5e5; }
