@@ -176,7 +176,7 @@ p {
   color: #999999;
   line-height: 1.6rem;
   text-align: center;
-  margin: 3em 2em; }
+  margin: 10px 15px; }
 
 .about-us {
   background-color: #ffffff; }
@@ -445,12 +445,14 @@ p {
             flex: 1 1 30%;
     margin: 0 10px; }
     .gallery-team__item-description {
-      text-align: center;
-      font-size: 14px;
-      font-family: "Montserrat";
-      color: #333333;
-      text-transform: uppercase;
-      line-height: 1.2; }
+      text-align: center; }
+      .gallery-team__item-description-title {
+        font-size: 14px;
+        font-family: "Montserrat";
+        color: #333333;
+        text-transform: uppercase;
+        line-height: 1.2rem;
+        margin-bottom: 5px; }
 
 .image-container {
   position: relative; }
