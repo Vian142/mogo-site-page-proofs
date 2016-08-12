@@ -1,0 +1,42 @@
+.quote
+  background-color: #f8f8f8
+
+.slide
+  display: flex
+  flex-wrap: nowrap
+  &-image
+    flex: 1 1 20%
+    &__icon-block
+      border: 3px solid #95e1d3
+      height: 110px
+      width: 110px
+      font-size: 4.5rem
+      text-align: center
+      line-height: 110px
+      color: #95e1d3
+  &-content
+    flex: 1 1 80%
+
+.slide-content__text-quote
+  font-size: 1.5rem
+  font-family: "Open Sans"
+  color: rgb(153, 153, 153)
+  font-style: italic
+  line-height: 1.5rem
+  text-align: left
+  blockquote
+    margin: 0.9em 0
+
+.authot-quote-wrap
+  font-size: 1.3rem
+  font-family: "Lobster"
+  color: rgb(51, 51, 51)
+  line-height: 1.2
+  text-align: left
+  &:before
+    content: ''
+    display: inline-block
+    width: 55px
+    height: 3px
+    margin-right: 10px
+    background-color: #f38181
