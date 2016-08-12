@@ -1,0 +1,107 @@
+.header
+  min-height: 100vh
+  background-image: url(../img/bcg-header.jpg)
+  background-size: cover
+
+.header-wrap
+  display: flex
+  max-width: 960px
+  margin: 0 auto
+  flex-wrap: wrap
+  height: 100%
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  z-index: 10
+
+.top-header
+  display: flex
+  flex: 1 1 100%
+  justify-content: center
+  align-self: flex-start
+  padding: 15px 10px
+.logo
+  flex: 1 1 50%
+  padding: 7px 0
+  &__link
+    font-size: 30px
+    font-family: "Montserrat"
+    color: rgb(255, 255, 255)
+    font-weight: bold
+    line-height: 1.2rem
+    text-align: left
+    text-decoration: none
+/* Navigation */
+.navigation
+  flex: 1 1 50%
+  padding: 5px 0
+.main-nav
+  &__list
+    display: flex
+    padding: 0
+    margin: 0
+    &-item
+      list-style: none
+      padding: 0 1em
+      &__link
+        font-size: 1rem
+        font-family: "Montserrat"
+        color: rgb(255, 255, 255)
+        text-transform: uppercase
+        line-height: 1.2rem
+        text-align: center
+        padding: 10px 0
+        text-decoration: none
+        border-bottom: 3px solid #fce38a
+
+.header-content
+  display: flex
+  align-self: center
+  flex: 0 0 100%
+  justify-content: center
+.header-content-wrap
+  margin: auto
+  max-width: 600px
+.header-content__title
+  margin: 0 auto
+  font-size: 3rem
+  font-family: "Lobster"
+  color: rgb(255, 255, 255)
+  line-height: 1em
+  text-align: center
+  z-index: 15
+.header-content__description
+  margin: auto
+  font-size: 4rem
+  font-family: "Montserrat"
+  color: rgb(255, 255, 255)
+  font-weight: bold
+  text-transform: uppercase
+  line-height: 4rem
+  text-align: center
+.header-content__footer
+  text-align: center
+  margin-top: 30px
+  padding: 15px 0 5px 0
+.header-content__link
+  font-size: 1rem
+  font-family: "Montserrat"
+  color: rgb(255, 255, 255)
+  font-weight: bold
+  text-transform: uppercase
+  line-height: 1.2rem
+  text-decoration: none
+  border: 3px solid #ffffff
+  padding: 1em 2em
+  transition: all 0.2s ease
+  &:hover
+    color: #fce38a
+    background: #ffffff
+
+.bottom-header
+  display: flex
+  flex: 1 1 100%
+  justify-content: center
+  align-self: flex-end
